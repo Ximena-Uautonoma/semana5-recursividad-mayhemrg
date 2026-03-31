@@ -13,6 +13,12 @@ def contar_ciclo(n):
     # Escriba aquí su solución y borre la palabra pass de acontinuación
     pass
 
+def suma_ciclo(n):
+    suma = 0
+    for x in range(1, n + 1):
+        suma += x
+    return suma
+
 
 def contar_recursivo(n):
     """
