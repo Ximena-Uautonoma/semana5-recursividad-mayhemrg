@@ -28,5 +28,8 @@ def contar_recursivo(n):
     pass
 
 def suma_recursiva(n):
-    if n == :1
+    if n == 1:
+        return [1]
+    else:
+        return suma_recursiva (n-1) + [n]
     
